@@ -1,27 +1,26 @@
 import Image from "next/image";
 import React from "react";
-import heroImage from "@/public/assets/hero-bg.jpg";
-import pdsBuilders from "@/public/assets/pds-builders.png";
+import hero from "@/public/assets/hero.png";
 
 const Hero = () => {
   return (
-    <section className="w-full h-screen bg-slate-600">
-      <div className="">
-        <Image
-          src={heroImage}
-          alt=""
-          width={1000}
-          height={1000}
-          className="h-[400px] lg:h-[800px] w-screen relative"
-        />
-        <div className="absolute top-[25%] left-[32%] flex justify-center items-center ">
-          <Image
-            src={pdsBuilders}
-            alt="pds-logo"
-            width={2000}
-            height={2000}
-            className="w-52 h-40 md:w-96 md:h-80"
-          />
+    <section className="relative w-full">
+      <Image
+        src={hero}
+        alt=""
+        width={1000}
+        height={1000}
+        className=" h-[200px] sm:h-[300px] md:h-[450px] lg:h-[600px] w-screen relative"
+      />
+      <div className="md:absolute bottom-10 left-4 flex gap-x-6 justify-center items-center">
+        <div className="aspect-square px-4 bg-white rounded-2xl shadow-md flex text-center justify-center items-center font-bold">
+          <span>Certification</span>
+        </div>
+        <div className="aspect-square px-4 bg-white rounded-2xl shadow-md flex text-center justify-center items-center font-bold">
+          <span>Certification</span>
+        </div>{" "}
+        <div className="aspect-square px-4 bg-white rounded-2xl shadow-md flex text-center justify-center items-center font-bold">
+          <span>Certification</span>
         </div>
       </div>
     </section>
