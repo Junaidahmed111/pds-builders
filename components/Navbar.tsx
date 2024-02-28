@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-yellow-400 py-4">
-      <div className="max-w-8xl px-12 mx-auto flex justify-between items-center">
+      <div className="max-w-7xl px-12 mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <Image alt="logo" src={logo} width={80} height={80} />
         </div>
