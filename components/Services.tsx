@@ -6,7 +6,7 @@ import serviceThree from "@/public/assets/service-three.png";
 
 const Services = () => {
   return (
-    <section className="bg-red-200 pt-8 px-16 flex flex-col gap-y-4">
+    <section className="pt-8 px-3 md:px-10 lg:px-16 flex flex-col gap-y-4">
       <span className="flex text-center items-center justify-center text-3xl font-bold">
         {" "}
         Our Services
