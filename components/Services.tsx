@@ -8,7 +8,6 @@ const Services = () => {
   return (
     <section className=" px-3 md:px-10 lg:px-16 flex flex-col gap-y-4 ">
       <span className="flex text-center items-center justify-center text-3xl font-bold gap-y-6">
-        {" "}
         Our Services
       </span>
 
