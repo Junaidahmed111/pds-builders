@@ -1,13 +1,11 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import dreamOne from "@/public/assets/dreams/dream-one.png";
-import dreamTwo from "@/public/assets/dreams/dream-two.png";
 import dreamThree from "@/public/assets/dreams/dream-three.png";
 
 const Dreams = () => {
   return (
-    <section className="flex flex-col px-5 md:px-20 lg:px-18 gap-y-8 pt-4">
+    <section className="flex flex-col px-5 md:px-20 lg:px-18 gap-y-8">
       <span className="font-bold text-4xl">Building Dreams</span>
       <div className="flex flex-col gap-y-3">
         <span className="max-w-5xl text-xl md:text-3xl">
