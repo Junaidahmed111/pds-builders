@@ -18,7 +18,7 @@ const ContactForm = () => {
           <span className="block text-sm font-medium text-black">Phone</span>
           <span className=" block text-sm font-medium text-gray-500">
             {" "}
-            (required)
+            {"(required)"}
           </span>
         </div>
         <input
@@ -34,7 +34,7 @@ const ContactForm = () => {
           <span className="block text-sm font-medium text-black">Email</span>
           <span className=" block text-sm font-medium text-gray-500">
             {" "}
-            (required)
+            {"(required)"}
           </span>
         </div>
         <input
@@ -57,7 +57,7 @@ const ContactForm = () => {
         />
       </div>
 
-      <Button className="w-full bg-blue-700">I'm Interested</Button>
+      <Button className="w-full bg-blue-700">I{"'"}m Interested</Button>
     </form>
   );
 };
